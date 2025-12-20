@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .navbar{
+      display: flex;
+      align-items: center;
+      padding: 12px;
+    }
+
+    .nav-name{
+      flex: 1;
+      color: grey;
+    }
+
+    .bar{
+      flex: 2;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+
+    .bar ul{
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    .bar a{
+      text-decoration: none;
+      color: blue;
+    }   
+            /* ---------- CONTENT ---------- */
+        .c2{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .c21,.c22{
+      flex: 1;
+      border: 2px solid black;
+      text-align: center;
+      padding: 12px;
+    }
+
+    .c22 p{
+      padding: 0 85px;
+    }
+
+    .c3{
+      border: 2px solid black;
+      padding: 12px;
+    }
+
+    .c3 h4{
+        margin: 6px 0 25px 0;
+    }
+
+    .c3 li{
+        list-style: none;
+    }
+         /* ---------- REVIEWS ---------- */
+    .r{
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+      margin: 0 90px;
+    }
+
+    .r1,.r2,.r3{
+      border: 2px solid black;
+      border-radius: 12px;
+      padding: 35px;
+    }
+
+    q{
+      display: block;
+      margin-bottom: 35px;
+    }
+
+    .review-name{
+      color: grey;
+      margin: 0;
+    }
+    </style>
+    <header>
+         <div class="navbar">
+      <div class="nav-name">
+        <h3>Divyansh Srivastava</h3>
+      </div>
+
+      <div class="bar">
+        <ul>
+          <li><a href="2.html">Home</a></li>
+          <li>/</li>
+          <li><a href="2-Projects.html">Projects</a></li>
+          <li>/</li>
+          <li><a href="2-Articles.html">Articles</a></li>
+          <li>/</li>
+          <li><a href="2-Contact.html">Contacts</a></li>
+        </ul>
+      </div>
+    </div>
+    </header>
+     <div class="c2">
+        <div class="c21">
+          <h3>Work experience</h3>
+          <p>roadmap.sh</p>
+          <p>Solved all the frontend projects</p>
+          <p><a href="https://roadmap.sh/u/darksoldier3205">Visit my profile</a></p>
+        </div>
+
+        <div class="c22">
+          <h3>Open source</h3>
+          <p>contributed to 50 opensource projects. Made my own projects with 200 GitHub stars</p>
+          <p><a href="https://github.com/darksoldierd">Visit my profile</a></p>
+        </div>
+      </div>
+
+      <div class="c3">
+        <h3>Education</h3>
+        <p>
+          Graduated with 3.76 out of 4 CGPA.
+          won Acme hackathon. Organized 30 session.
+        </p>
+
+        <h4>Course I took:</h4>
+        <ul>
+          <li>-Object Oriented Programming</li>
+          <li>-Data Structures and Algorithms</li>
+          <li>-Web Engineering</li>
+          <li>-Artificial Intelligence</li>
+          <li>-Human Computer Interaction</li>
+          <li>-Computer Graphics</li>
+          <li>-Database Management Systems</li>
+          <li>-Distributed Database Systems</li>
+          <li>-Discrete Mathematics</li>
+        </ul>
+      </div>
+       <hr style="border-width: 1px;
+                        outline:none;
+                        border-color:black;
+                        border-style:solid;">
+
+        <section>
+          <h3>Reviews from my Teacher</h3>
+          <div class="r">
+            <div class="r1">
+              <q>Divyansh Srivastava was a brilliant student who consistently demonstrated exceptional skills in web development and project management.</q>
+               <p class="name">Jane Doe</p>
+               <p class="name">Assistant Professor</p>
+            </div>
+
+            <div class="r2">
+              <q>Divyansh Srivastava was a brilliant student who consistently demonstrated exceptional skills in web development and project management.</q>
+               <p class="name">Jane Doe</p>
+               <p class="name">Assistant Professor</p>
+              </div>
+
+            <div class="r3">
+              <q>Divyansh Srivastava was a brilliant student who consistently demonstrated exceptional skills in web development and project management.</q>
+               <p class="name">Jane Doe</p>
+               <p class="name">Assistant Professor</p>
+            </div>
+
+          </div>
+        </section>                
+
+        <hr style="border-width: 1px;
+                        outline:none;
+                        border-color:black;
+                        border-style:solid;">
+</body>
+</html>
