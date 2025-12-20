@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+
+  <style>
+    *{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins','Segoe UI','Roboto',sans-serif;
+    }
+
+    /* ---------- NAVBAR ---------- */
+    .navbar{
+      display: flex;
+      align-items: center;
+      padding: 12px;
+    }
+
+    .nav-name{
+      flex: 1;
+      color: grey;
+    }
+
+    .bar{
+      flex: 2;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+
+    .bar ul{
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    .bar a{
+      text-decoration: none;
+      color: blue;
+    }
+
+    /* ---------- HERO ---------- */
+    .Dev{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-top: 16px;
+    }
+
+    .Dev h1{
+      margin-bottom: 2px;
+    }
+
+    .Dev p{
+      margin-top: 10px;
+    }
+
+    .hr-line{
+      border: 1px solid black;
+      margin: 20px 0;
+    }
+
+    /* ---------- PROJECTS / CONTENT ---------- */
+    .c{
+      margin: 85px 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 403px;
+      padding: 4px;
+    }
+
+    .c1,.c2,.c3{
+      flex: 1;
+      height: 100%;
+    }
+
+    table{
+      width: 100%;
+      height: 100%;
+      border-collapse: collapse;
+      border: 2px solid black;
+    }
+
+    td{
+      border: 1px solid #ddd;
+      padding: 8px;
+      background-color: #f3f3f3;
+    }
+
+    .c2{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .c21,.c22{
+      flex: 1;
+      border: 2px solid black;
+      text-align: center;
+      padding: 12px;
+    }
+
+    .c22 p{
+      padding: 0 85px;
+    }
+
+    .c3{
+      border: 2px solid black;
+      padding: 12px;
+    }
+
+    .c3 h4{
+        margin: 6px 0 25px 0;
+    }
+
+    .c3 li{
+        list-style: none;
+    }
+
+    /* ---------- REVIEWS ---------- */
+    .r{
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+      margin: 0 90px;
+    }
+
+    .r1,.r2,.r3{
+      border: 2px solid black;
+      border-radius: 12px;
+      padding: 35px;
+    }
+
+    q{
+      display: block;
+      margin-bottom: 35px;
+    }
+
+    .review-name{
+      color: grey;
+      margin: 0;
+    }
+
+    /* ---------- FOOTER ---------- */
+    .f{
+      text-align: center;
+      padding: 12px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <nav>
+    <div class="navbar">
+      <div class="nav-name">
+        <h3>Divyansh Srivastava</h3>
+      </div>
+
+      <div class="bar">
+        <ul>
+          <li><a href="2.html">Home</a></li>
+          <li>/</li>
+          <li><a href="2-Projects.html">Projects</a></li>
+          <li>/</li>
+          <li><a href="2-Articles.html">Articles</a></li>
+          <li>/</li>
+          <li><a href="2-Contact.html">Contacts</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <section>
+    <div class="Dev">
+      <h1>FRONTENDED DEVLOPER</h1>
+      <p>only with proper layout, lauda mera</p>
+    </div>
+  </section>
+
+  <hr class="hr-line">
+
+  <section>
+    <div class="c">
+
+      <div class="c1">
+        <table>
+          <tr><td>Projects</td></tr>
+          <tr><td>HTML only portfolio</td></tr>
+          <tr><td>Calculator</td></tr>
+          <tr><td>Quiz app</td></tr>
+          <tr><td>Count down timer</td></tr>
+          <tr>
+            <td style="height:50px;padding:15px;">
+              Product upcoming page
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="c2">
+        <div class="c21">
+          <h3>Work experience</h3>
+          <p>roadmap.sh</p>
+          <p>Solved all the frontend projects</p>
+          <p><a href="https://roadmap.sh/u/darksoldier3205">Visit my profile</a></p>
+        </div>
+
+        <div class="c22">
+          <h3>Open source</h3>
+          <p>contributed to 50 opensource projects. Made my own projects with 200 GitHub stars</p>
+          <p><a href="https://github.com/darksoldierd">Visit my profile</a></p>
+        </div>
+      </div>
+
+      <div class="c3">
+        <h3>Education</h3>
+        <p>
+          Graduated with 3.76 out of 4 CGPA.
+          won Acme hackathon. Organized 30 session.
+        </p>
+
+        <h4>Course I took:</h4>
+        <ul>
+          <li>-Object Oriented Programming</li>
+          <li>-Data Structures and Algorithms</li>
+          <li>-Web Engineering</li>
+          <li>-Artificial Intelligence</li>
+          <li>-Human Computer Interaction</li>
+          <li>-Computer Graphics</li>
+          <li>-Database Management Systems</li>
+          <li>-Distributed Database Systems</li>
+          <li>-Discrete Mathematics</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <hr class="hr-line">
+
+  <section>
+    <h3 style="text-align:center;">Reviews from my Teacher</h3>
+
+    <div class="r">
+      <div class="r1">
+        <q>Divyansh Srivastava was a brilliant student who consistently demonstrated exceptional skills in web development and project management.</q>
+        <p class="review-name">Jane Doe</p>
+        <p class="review-name">Assistant Professor</p>
+      </div>
+
+      <div class="r2">
+        <q>Divyansh Srivastava was a brilliant student who consistently demonstrated exceptional skills in web development and project management.</q>
+        <p class="review-name">Jane Doe</p>
+        <p class="review-name">Assistant Professor</p>
+      </div>
+
+      <div class="r3">
+        <q>Divyansh Srivastava was a brilliant student who consistently demonstrated exceptional skills in web development and project management.</q>
+        <p class="review-name">Jane Doe</p>
+        <p class="review-name">Assistant Professor</p>
+      </div>
+    </div>
+  </section>
+
+  <hr class="hr-line">
+
+</main>
+
+<footer>
+  <div class="f">&copy; 2025 Divyansh Srivastava. All rights reserved.</div>
+</footer>
+
+</body>
+</html>
