@@ -1,0 +1,68 @@
+.speech-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 400px;
+  margin: 50px auto;
+  font-family: Arial, sans-serif;
+}
+
+/* Speech Bubble */
+.speech-bubble {
+  position: relative;
+  background: #4caf50;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 20px;
+  width: fit-content;
+  max-width: 100%;
+}
+
+/* Speech bubble arrow */
+.speech-bubble::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-top-color: #4caf50;
+  border-bottom: 0;
+  margin-left: -7.5px;
+  margin-bottom: -15px;
+}
+
+/* Thought Bubble */
+.thought-bubble {
+  position: relative;
+  background: #ffeb3b;
+  color: #333;
+  padding: 15px 20px;
+  border-radius: 50%;
+  width: fit-content;
+  max-width: 200px;
+}
+
+/* Thought bubble dots */
+.thought-bubble::after,
+.thought-bubble::before {
+  content: '';
+  position: absolute;
+  background: #ffeb3b;
+  border-radius: 50%;
+}
+
+.thought-bubble::after {
+  width: 12px;
+  height: 12px;
+  bottom: -18px;
+  left: 40px;
+}
+
+.thought-bubble::before {
+  width: 8px;
+  height: 8px;
+  bottom: -30px;
+  left: 60px;
+}
