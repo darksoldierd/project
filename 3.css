@@ -122,9 +122,11 @@ button{
 button:hover{
     opacity:.7;
     box-shadow: 6px 6px 10px rgb(147, 147, 147);
+    transition: opacity 0.15s;
 }
 
 button:active{
+    transition: opacity 0.15s;
     opacity:.4;
     box-shadow: 0 0 0 white;
 }
