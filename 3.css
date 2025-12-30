@@ -31,6 +31,7 @@ margin:0 0 12px 0;
 }
 
 /* log */
+
 .u2{
     display:flex;
     flex-direction: row;
@@ -38,13 +39,14 @@ margin:0 0 12px 0;
     margin:8px 0 0 85px;
     gap:26px;
 }
+
 .u2-1{
     display:flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 38px;
-    
+    gap: 38px; 
 }
+
 .u2-2{
     display:flex;
     flex-direction: column;
@@ -53,9 +55,8 @@ margin:0 0 12px 0;
     gap: 46px;
     height:450px;
     width:18px;
-    /* padding: 6px 0 4px 0; */
-    /* margin:0 0 6px 0; */
 }
+
 .u2-2-1{
 width:4px;
 background-color: black;
@@ -67,6 +68,15 @@ border-radius:19px;
 position:absolute;
 left: 300.5px; 
 }
+
+.u2-3{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 38px;
+    margin:0 0 0 46px;
+}
+
 .circle{
     height: 21px;
     width:21px;
@@ -76,22 +86,11 @@ left: 300.5px;
     justify-content: center;
     align-items: center;
 }
-.u2-3{
-    /* display:flex;
-    flex-direction: column;
-    justify-content: end;
-    gap: 46px;
-    height:378px;
-    padding: 0 0 8px 0; */
-    display:flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 38px;
-    margin:0 0 0 46px;
-}
+
 .date,.log{
       font-family: 'Poppins','Segoe UI','Roboto',sans-serif;
 }
+
 .date{
     color:grey;
     font-size: 18px;
@@ -105,7 +104,7 @@ left: 300.5px;
     color: #111;
 }
 
-/* but */
+/* button */
 
 button{
     color:white;
